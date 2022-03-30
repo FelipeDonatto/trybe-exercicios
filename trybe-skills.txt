@@ -3,9 +3,6 @@ O que eu vou aprender na Trybe:
 - Unix
 - Bash
 - Git
-<<<<<<< HEAD
-- Comunicação
-=======
+- Comunicar
 - Soft skills
 - Python
->>>>>>> trybe-skills-changes
