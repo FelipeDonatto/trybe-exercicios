@@ -1,0 +1,35 @@
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 65px;
+        color: orange;
+  }
+  p{
+    font-weight: 600;
+    font-size: 3em;
+    text-align: center;
+  }
+  body{
+    font-style: normal;
+    font-size: 16px;
+    background-color: rgb(135, 151, 151);
+  }
+  li{
+    text-decoration: underline;
+    line-height: 50px;
+    font-style: oblique;
+    text-decoration: black;
+  }
+  #amarelo{
+    background-color: yellow;
+  }
+  #vermelho{
+    background-color: red;
+  }
+  #marrom{
+    background-color: brown;
+  }
+  .bgantiquewhite {
+  background-color: antiquewhite;
+  }
+  
