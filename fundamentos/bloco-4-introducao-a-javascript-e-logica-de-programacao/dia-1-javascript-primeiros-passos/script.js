@@ -1,8 +1,8 @@
-const a = 2
-const b = 4
-
-console.log(a + b)
-console.log(a-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a%b)
+const a = 5
+const b = 3
+if (a > b){
+    console.log(a)
+}  
+else {
+    console.log(b)
+}
