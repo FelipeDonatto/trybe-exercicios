@@ -1,12 +1,16 @@
-const a = 60
-const b = 30
-const c = 90
+const piece = "queEn"
+const result = piece.toLowerCase()
 
-
-if(a<0||b<0||c<0){
-    console.log("error")
-} else if(a+b+c>180||a+b+c<180){
-    console.log(false+", seus não formam um triangulo")
-} else {
-    console.log(true+", seus dados formam um triangulo")
+if(result==="bishop"||result==="pawn"){
+    console.log("diagonals")
+} else if (result==="rook"){
+    console.log("horizontally and vertically")
+}else if (result==="king"){
+        console.log("horizontally, vertically and diagonals")
+}else if (result==="horse"){
+    console.log("l-shape")
+}else if (result==="queen"){
+    console.log("square shape")
+}else{
+    console.log("this piece either don't exist or i haven't added it to the code")
 }
